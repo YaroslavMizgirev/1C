@@ -41,4 +41,4 @@ systemctl start crs-8.3.24.1586.service # Запустим созданную с
 systemctl status crs-8.3.24.1586.service -l --no-pager # Проверим статус новой службы
 ```
 
-![screen](images/status crs_8_3_24_1586_service.png)
+![screen](https://github.com/YaroslavMizgirev/1C/blob/main/images/status%20crs_8_3_24_1586_service.png)
