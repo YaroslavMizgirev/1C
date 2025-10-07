@@ -158,14 +158,29 @@
 Функция ПустыеНеобходимыеПоляОбъекта(Форма,ПроверяемыеПоля,СтандартнаяОбработка=Истина,Отказ=Ложь,СообщатьОбОшибках=Истина) Экспорт
 ```
 
-### [Обработка строк](https://github.com/YaroslavMizgirev/1C/blob/main/modules/StringProcessing.bsl)
+### [Тип данных (клиент сервер)](https://github.com/YaroslavMizgirev/1C/blob/main/modules/DataTypeClientServer.bsl)
 
-### [Типы значений](https://github.com/YaroslavMizgirev/1C/blob/main/modules/DataType.bsl)
+### [Тип данных (вызов сервера)](https://github.com/YaroslavMizgirev/1C/blob/main/modules/DataTypeServerCall.bsl)
 
-### [Типы значений вызов сервера](https://github.com/YaroslavMizgirev/1C/blob/main/modules/DataTypeServerCall.bsl)
+```1CEnterprise
+// Функция - Массив типов характеристик.
+//  Возврат массива типов значений характеристик заданного Плана видов характеристик.
+//
+// Параметры:
+//  ИмяПланаВидовХарактеристик - Строка - Имя плана видов характеристик.
+//
+// Возвращаемое значение:
+//   - МассивТипов - Массив Из Тип(Произвольный) - Массив типов значений характеристик.
+//
+Функция МассивТиповХарактеристик(ИмяПланаВидовХарактеристик) Экспорт
+```
 
 ### [Команды формы программно](https://github.com/YaroslavMizgirev/1C/blob/main/modules/FormCommandProgrammatically.bsl)
 
 ### [Элементы формы программно](https://github.com/YaroslavMizgirev/1C/blob/main/modules/FormElementProgrammatically.bsl)
 
 ### [Реквизиты формы программно](https://github.com/YaroslavMizgirev/1C/blob/main/modules/FormPropsProgrammatically.bsl)
+
+### [Общего назначения (вызов сервера)](/home/mym/projects/1C/modules/GeneralPurposeServerCall.bsl)
+
+### [Обработка строк (клиент сервер)](https://github.com/YaroslavMizgirev/1C/blob/main/modules/StringProcessingClientServer.bsl)
