@@ -1,0 +1,171 @@
+{
+  "kind": "metadata fragments, not complete Configuration dump",
+  "xml_format": "2.20",
+  "canonical_import_tested": false,
+  "Configuration.xml": false,
+  "ConfigDumpInfo.xml": "not fabricated; receiving native dump owns registrations/versions",
+  "objects": [
+    {
+      "object": "Form.ФормаВыбораРеквизита",
+      "uuid": "5effb882-b057-4420-ab0c-1c6208066f89",
+      "xml": "Catalogs/мямЗначенияПоУмолчанию/Forms/ФормаВыбораРеквизита.xml",
+      "card": "docs/Catalogs--мямЗначенияПоУмолчанию--Forms--ФормаВыбораРеквизита.md"
+    },
+    {
+      "object": "Form.ФормаСписка",
+      "uuid": "cfc4a553-e5f9-4802-9fee-65db57a1ea1e",
+      "xml": "Catalogs/мямЗначенияПоУмолчанию/Forms/ФормаСписка.xml",
+      "card": "docs/Catalogs--мямЗначенияПоУмолчанию--Forms--ФормаСписка.md"
+    },
+    {
+      "object": "Form.ФормаЭлемента",
+      "uuid": "201e1907-4aaf-4b6d-a4c9-70dba11884b2",
+      "xml": "Catalogs/мямЗначенияПоУмолчанию/Forms/ФормаЭлемента.xml",
+      "card": "docs/Catalogs--мямЗначенияПоУмолчанию--Forms--ФормаЭлемента.md"
+    },
+    {
+      "object": "Catalog.мямЗначенияПоУмолчанию",
+      "uuid": "edebad8f-aeff-45d7-89d2-37ee3d2b207d",
+      "xml": "Catalogs/мямЗначенияПоУмолчанию.xml",
+      "card": "docs/Catalogs--мямЗначенияПоУмолчанию.md"
+    },
+    {
+      "object": "CommonModule.мямЗначенияПоУмолчанию",
+      "uuid": "2b096022-f91a-4f9c-b89d-6e68a94a313d",
+      "xml": "CommonModules/мямЗначенияПоУмолчанию.xml",
+      "card": "docs/CommonModules--мямЗначенияПоУмолчанию.md"
+    },
+    {
+      "object": "CommonModule.мямЗначенияПоУмолчаниюВызовСервера",
+      "uuid": "3cd41954-4f6b-443b-8cad-fbf0da869ec4",
+      "xml": "CommonModules/мямЗначенияПоУмолчаниюВызовСервера.xml",
+      "card": "docs/CommonModules--мямЗначенияПоУмолчаниюВызовСервера.md"
+    },
+    {
+      "object": "CommonPicture.мямЗначенияПоУмолчанию16",
+      "uuid": "3c94c0c4-8e88-4651-b464-479860004f54",
+      "xml": "CommonPictures/мямЗначенияПоУмолчанию16.xml",
+      "card": "docs/CommonPictures--мямЗначенияПоУмолчанию16.md"
+    },
+    {
+      "object": "Role.мямДобавлениеИзменениеЗначенияПоУмолчанию",
+      "uuid": "ce5d0426-f2b9-4c67-8c16-eec44b0aac07",
+      "xml": "Roles/мямДобавлениеИзменениеЗначенияПоУмолчанию.xml",
+      "card": "docs/Roles--мямДобавлениеИзменениеЗначенияПоУмолчанию.md"
+    },
+    {
+      "object": "Role.мямЧтениеПросмотрЗначенияПоУмолчанию",
+      "uuid": "6c7c1476-7060-4be6-949a-d4a369787703",
+      "xml": "Roles/мямЧтениеПросмотрЗначенияПоУмолчанию.xml",
+      "card": "docs/Roles--мямЧтениеПросмотрЗначенияПоУмолчанию.md"
+    },
+    {
+      "object": "Subsystem.ЗначенияПоУмолчанию",
+      "uuid": "a95b2a87-62e0-4a88-b7de-25359eeab42d",
+      "xml": "Subsystems/ЗначенияПоУмолчанию.xml",
+      "card": "docs/Subsystems--ЗначенияПоУмолчанию.md"
+    }
+  ],
+  "files": [
+    {
+      "path": "Catalogs/мямЗначенияПоУмолчанию/Commands/мямЗначенияПоУмолчанию/Ext/CommandModule.bsl",
+      "sha256": "36c05500e938cd8d5e32eb65991c4d1e13634e12bc09dfad121c925a4fe1cfdf"
+    },
+    {
+      "path": "Catalogs/мямЗначенияПоУмолчанию/Ext/ManagerModule.bsl",
+      "sha256": "d310578b76b5596897589edc3df8fc5c33d19e00ac1f92e64c161ff35cfce6fb"
+    },
+    {
+      "path": "Catalogs/мямЗначенияПоУмолчанию/Ext/ObjectModule.bsl",
+      "sha256": "727ca36d8d830c88e4dc8f386480e1ae32b22185654013e224ae00ec3f910bf6"
+    },
+    {
+      "path": "Catalogs/мямЗначенияПоУмолчанию/Forms/ФормаВыбораРеквизита/Ext/Form/Module.bsl",
+      "sha256": "fc2964e19caf29424a8c66c5871058cd4734c6ca17c5716c76eb798b394e1fec"
+    },
+    {
+      "path": "Catalogs/мямЗначенияПоУмолчанию/Forms/ФормаВыбораРеквизита/Ext/Form.xml",
+      "sha256": "fd66dc0604915ccaa112e89c89ccdccb620b8ab34e455892a21f9c6574b47503"
+    },
+    {
+      "path": "Catalogs/мямЗначенияПоУмолчанию/Forms/ФормаВыбораРеквизита.xml",
+      "sha256": "1e0187af5330ff91d1a59298a9eb38eb5f63881ce0c62736035037696c490a80"
+    },
+    {
+      "path": "Catalogs/мямЗначенияПоУмолчанию/Forms/ФормаСписка/Ext/Form/Module.bsl",
+      "sha256": "b4104294caaf957d99a6d09e715bc2cd1b895cd863868155af81ea1beae87ea8"
+    },
+    {
+      "path": "Catalogs/мямЗначенияПоУмолчанию/Forms/ФормаСписка/Ext/Form.xml",
+      "sha256": "ec015af2cf641f99b6240b3e00029b2f8146acc09f12890e0c7fb892ae09ca57"
+    },
+    {
+      "path": "Catalogs/мямЗначенияПоУмолчанию/Forms/ФормаСписка.xml",
+      "sha256": "53ec769ccfc2e3b23863b57cf61409099ab45fc2a2d8e6676a4e7eee9b930fc9"
+    },
+    {
+      "path": "Catalogs/мямЗначенияПоУмолчанию/Forms/ФормаЭлемента/Ext/Form/Module.bsl",
+      "sha256": "cda856e8301b5c1e958ba73fc34c7f9a4a455d16bd7173a0f29fe57ac56d6073"
+    },
+    {
+      "path": "Catalogs/мямЗначенияПоУмолчанию/Forms/ФормаЭлемента/Ext/Form.xml",
+      "sha256": "1358d2444bc6211137dc34e948cb88d121858ced223e9686b4a145426b08abb4"
+    },
+    {
+      "path": "Catalogs/мямЗначенияПоУмолчанию/Forms/ФормаЭлемента.xml",
+      "sha256": "79210c0ecf0c54ecd22b25e6d50e3283ea7105231307ecd0f9417772892a4bf4"
+    },
+    {
+      "path": "Catalogs/мямЗначенияПоУмолчанию.xml",
+      "sha256": "1fc75a60649bc0414938664b22b65fcc15c238a6b5903df957dc078f88943a30"
+    },
+    {
+      "path": "CommonModules/мямЗначенияПоУмолчанию/Ext/Module.bsl",
+      "sha256": "7f1c4bcb34c79f8013fa7187420b26a4c05765b50a71a7087305c91d4251d13f"
+    },
+    {
+      "path": "CommonModules/мямЗначенияПоУмолчанию.xml",
+      "sha256": "19c8b66cbdbc3895baec82e42cca31a905d67870c16994d48e982a01526fa5c6"
+    },
+    {
+      "path": "CommonModules/мямЗначенияПоУмолчаниюВызовСервера/Ext/Module.bsl",
+      "sha256": "f226725d779c093e8fb3d53376cedd7548ef6da37f8d81d5555fb6a1170540e6"
+    },
+    {
+      "path": "CommonModules/мямЗначенияПоУмолчаниюВызовСервера.xml",
+      "sha256": "56fb38aa9d9de7b823e7f26dca49eb1863828bf17c3a978672548d9789d6333f"
+    },
+    {
+      "path": "CommonPictures/мямЗначенияПоУмолчанию16/Ext/Picture/Picture.png",
+      "sha256": "48c51777df0681e070de0a16459254c2f2580212974a35e753ff7de0eaabdc95"
+    },
+    {
+      "path": "CommonPictures/мямЗначенияПоУмолчанию16/Ext/Picture.xml",
+      "sha256": "03a2f337e9068f8b24cf6acadcd416bde02dd6778a08d958f7e408ea18d1b1e9"
+    },
+    {
+      "path": "CommonPictures/мямЗначенияПоУмолчанию16.xml",
+      "sha256": "948be41a530d6898f13186332a6eb686e4eb0042554a2de7894dc45bd03f6401"
+    },
+    {
+      "path": "Roles/мямДобавлениеИзменениеЗначенияПоУмолчанию/Ext/Rights.xml",
+      "sha256": "ecb600eb26592e83d4e981b95741a546550799a7d31e5b6316256eaf51bb5e0b"
+    },
+    {
+      "path": "Roles/мямДобавлениеИзменениеЗначенияПоУмолчанию.xml",
+      "sha256": "e934fbb5efb9e7f9a95e724c8bcba012bc3185dc399665db6857c5d3fe5858e2"
+    },
+    {
+      "path": "Roles/мямЧтениеПросмотрЗначенияПоУмолчанию/Ext/Rights.xml",
+      "sha256": "cd13a70b6c3a4c8f365dc86fcbdb0c5d4ae889f4a45d9c03659070c136d499ef"
+    },
+    {
+      "path": "Roles/мямЧтениеПросмотрЗначенияПоУмолчанию.xml",
+      "sha256": "487fa00f1d037caf2b66303e38cb52f5f720aaa9d9f6b5271d10ce937d53e0ba"
+    },
+    {
+      "path": "Subsystems/ЗначенияПоУмолчанию.xml",
+      "sha256": "2a4febbaf6d6b11663e28fb917ebd59e0c30b4c8b81b9de446086a9e23e8bec8"
+    }
+  ]
+}
