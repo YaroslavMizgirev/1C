@@ -1,6 +1,6 @@
 {
-  "stage": 4,
-  "methods": 242,
+  "stage": 5,
+  "methods": 243,
   "platform": "8.3.27+",
   "bsp": "3.1.12.323 for BSP-dependent methods",
   "modules": {
@@ -183,6 +183,12 @@
           "signature": "Процедура ПроверитьТипКниги(Архив, ИмяКниги, Каталог)",
           "export": false,
           "stage": 1
+        },
+        {
+          "name": "ПрочитатьКнигуXLSX",
+          "signature": "Функция ПрочитатьКнигуXLSX(ДанныеФайла) Экспорт",
+          "export": true,
+          "stage": 5
         },
         {
           "name": "ПрочитатьМатрицу",
