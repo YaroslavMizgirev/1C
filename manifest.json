@@ -1,6 +1,6 @@
 {
-  "stage": 6,
-  "methods": 263,
+  "stage": 7,
+  "methods": 292,
   "platform": "8.3.27+",
   "bsp": "3.1.12.323 for BSP-dependent methods",
   "modules": {
@@ -20,7 +20,7 @@
           "name": "XMLИзАрхива",
           "signature": "Функция XMLИзАрхива(Архив, ИмяЧасти, КаталогЧтения) Экспорт",
           "export": true,
-          "stage": 1
+          "stage": 7
         },
         {
           "name": "XMLЛистаЗаписиXLSX",
@@ -47,6 +47,12 @@
           "stage": 1
         },
         {
+          "name": "БюджетЧастиXLSX",
+          "signature": "Функция БюджетЧастиXLSX(Части, ИмяЧасти, РазмерДанных)",
+          "export": false,
+          "stage": 7
+        },
+        {
           "name": "ВнутренняяЧасть",
           "signature": "Функция ВнутренняяЧасть(Архив, Источник, Связь)",
           "export": false,
@@ -56,7 +62,13 @@
           "name": "ДатаExcel",
           "signature": "Функция ДатаExcel(Сырое, Даты1904)",
           "export": false,
-          "stage": 2
+          "stage": 7
+        },
+        {
+          "name": "ДекодироватьСтрокуXLSX",
+          "signature": "Функция ДекодироватьСтрокуXLSX(Текст)",
+          "export": false,
+          "stage": 7
         },
         {
           "name": "ДобавитьЛистXLSX",
@@ -69,6 +81,12 @@
           "signature": "Процедура ДобавитьТипСодержимого(Типы, Ключ, Узел)",
           "export": false,
           "stage": 1
+        },
+        {
+          "name": "ДополнитьГеометриюОбъединений",
+          "signature": "Процедура ДополнитьГеометриюОбъединений(Строки, ЛистXML)",
+          "export": false,
+          "stage": 7
         },
         {
           "name": "Дочерние",
@@ -84,15 +102,15 @@
         },
         {
           "name": "ЗаписатьXMLЧастьXLSX",
-          "signature": "Процедура ЗаписатьXMLЧастьXLSX(ИмяФайла, XMLЧасти)",
+          "signature": "Процедура ЗаписатьXMLЧастьXLSX(Части, ИмяЧасти, XMLЧасти)",
           "export": false,
-          "stage": 1
+          "stage": 7
         },
         {
           "name": "ЗаписатьЧастиКнигиXLSX",
-          "signature": "Процедура ЗаписатьЧастиКнигиXLSX(Книга, КаталогСборки)",
+          "signature": "Процедура ЗаписатьЧастиКнигиXLSX(Книга, Части)",
           "export": false,
-          "stage": 1
+          "stage": 7
         },
         {
           "name": "НайтиСтилиДат",
@@ -119,10 +137,10 @@
           "stage": 1
         },
         {
-          "name": "ОчиститьРесурсыЗаписиXLSX",
-          "signature": "Функция ОчиститьРесурсыЗаписиXLSX(АрхивЗаписи, КаталогСборки)",
+          "name": "ОшибкаБюджетаXLSX",
+          "signature": "Процедура ОшибкаБюджетаXLSX()",
           "export": false,
-          "stage": 1
+          "stage": 7
         },
         {
           "name": "ПроверитьАрхив",
@@ -186,15 +204,15 @@
         },
         {
           "name": "ПрочитатьКнигуXLSX",
-          "signature": "Функция ПрочитатьКнигуXLSX(ДанныеФайла) Экспорт",
+          "signature": "Функция ПрочитатьКнигуXLSX(ДанныеФайла, ТолькоПервыйЛист = Ложь) Экспорт",
           "export": true,
-          "stage": 5
+          "stage": 7
         },
         {
           "name": "ПрочитатьМатрицу",
           "signature": "Функция ПрочитатьМатрицу(ЛистXML, ОбщиеСтроки, СтилиДат, Даты1904)",
           "export": false,
-          "stage": 4
+          "stage": 7
         },
         {
           "name": "ПрочитатьСвязи",
@@ -207,6 +225,18 @@
           "signature": "Функция ПутьЛиста(Связи, ЛистКниги)",
           "export": false,
           "stage": 1
+        },
+        {
+          "name": "РазмерUTF8XLSX",
+          "signature": "Функция РазмерUTF8XLSX(Текст, Предел)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "РазмерXMLЛистаXLSX",
+          "signature": "Функция РазмерXMLЛистаXLSX(Лист, Предел)",
+          "export": false,
+          "stage": 7
         },
         {
           "name": "РазрешитьЦель",
@@ -224,7 +254,7 @@
           "name": "СформироватьXLSX",
           "signature": "Функция СформироватьXLSX(Книга) Экспорт",
           "export": true,
-          "stage": 1
+          "stage": 7
         },
         {
           "name": "ТекстXMLЗаписиXLSX",
@@ -236,7 +266,7 @@
           "name": "ТекстУзлов",
           "signature": "Функция ТекстУзлов(Узел) Экспорт",
           "export": true,
-          "stage": 1
+          "stage": 7
         },
         {
           "name": "ТипСвязи",
@@ -258,14 +288,172 @@
         }
       ],
       "dependencies": [
+        "мямZIP",
         "мямЧислоКлиентСервер"
       ],
-      "bsp_dependencies": [
-        "ФайловаяСистема"
+      "bsp_dependencies": [],
+      "platform_services": []
+    },
+    "мямZIP": {
+      "properties": {
+        "Global": "false",
+        "ClientManagedApplication": "false",
+        "Server": "true",
+        "ExternalConnection": "false",
+        "ClientOrdinaryApplication": "false",
+        "ServerCall": "false",
+        "Privileged": "false",
+        "ReturnValuesReuse": "DontUse"
+      },
+      "methods": [
+        {
+          "name": "CRC32",
+          "signature": "Функция CRC32(Буфер, Таблица)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "Биты",
+          "signature": "Функция Биты(Состояние, Количество)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "Дерево",
+          "signature": "Функция Дерево(Длины, Кодовое = Ложь)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "ДинамическиеДеревья",
+          "signature": "Функция ДинамическиеДеревья(Состояние)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "ДлинаДескриптора",
+          "signature": "Функция ДлинаДескриптора(Буфер, Начало, Предел, Контроль, Сжато, Размер)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "ЗаписатьLE",
+          "signature": "Процедура ЗаписатьLE(Буфер, Позиция, Знач Значение, Знач Размер)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "ЗаписиАрхива",
+          "signature": "Функция ЗаписиАрхива(Буфер, КонецКаталога, ПределДанных, ПределЗаписей)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "КандидатКонцаКаталога",
+          "signature": "Функция КандидатКонцаКаталога(Буфер, Позиция)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "КопияБайтов",
+          "signature": "Функция КопияБайтов(Буфер, Начало, Размер)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "НайтиЗаписиАрхива",
+          "signature": "Функция НайтиЗаписиАрхива(Буфер, ПределДанных, ПределЗаписей)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "ОшибкаZIP",
+          "signature": "Процедура ОшибкаZIP(Причина = \"\")",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "ПеренестиБайты",
+          "signature": "Процедура ПеренестиБайты(Выход, Позиция, Источник)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "ПроверитьГраницы",
+          "signature": "Процедура ПроверитьГраницы(Буфер, Начало, Размер)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "ПроверитьДополнение",
+          "signature": "Процедура ПроверитьДополнение(Буфер, Начало, Размер)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "ПроверитьИмя",
+          "signature": "Процедура ПроверитьИмя(Имя, Имена)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "ПроверитьПредел",
+          "signature": "Процедура ПроверитьПредел(Значение, Минимум, Максимум)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "Прочитать",
+          "signature": "Функция Прочитать(Данные, ПределАрхива = 16777216, ПределДанных = 67108864, ПределЗаписей = 1000) Экспорт",
+          "export": true,
+          "stage": 7
+        },
+        {
+          "name": "ПрочитатьИмя",
+          "signature": "Функция ПрочитатьИмя(Буфер, Начало, Размер, Флаги)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "Распаковать",
+          "signature": "Функция Распаковать(Буфер, Начало, Сжато, Размер)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "СимволДерева",
+          "signature": "Функция СимволДерева(Состояние, ДеревоКодов)",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "Сформировать",
+          "signature": "Функция Сформировать(Элементы) Экспорт",
+          "export": true,
+          "stage": 7
+        },
+        {
+          "name": "ТаблицаCRC32",
+          "signature": "Функция ТаблицаCRC32()",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "ФиксированныеДеревья",
+          "signature": "Функция ФиксированныеДеревья()",
+          "export": false,
+          "stage": 7
+        },
+        {
+          "name": "ЧислоLE",
+          "signature": "Функция ЧислоLE(Буфер, Начало, Размер)",
+          "export": false,
+          "stage": 7
+        }
       ],
-      "platform_services": [
-        "ОбработкаОшибок"
-      ]
+      "dependencies": [],
+      "bsp_dependencies": [],
+      "platform_services": []
     },
     "мямБулевоКлиентСервер": {
       "properties": {
